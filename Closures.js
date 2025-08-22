@@ -21,7 +21,7 @@ counter() = 12 // Returns 1 more than the previous time.
 
 var createCounter = function(n) {
     return function() {
-        return n++
+        return n++   //3+4
     };
 };
 
